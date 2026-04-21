@@ -1,0 +1,22 @@
+# ===== Skills 文件（本地开发用，不上传）=====
+.skills/
+
+# ===== 后端 =====
+backend/kato_web.db
+#backend/.env
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/models/__pycache__/
+backend/app/routes/__pycache__/
+backend/app/services/__pycache__/
+backend/app/utils/__pycache__/
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
+
+# ===== 前端 =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db

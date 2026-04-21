@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.main-content {
+  min-height: calc(100vh - 120px);
+  padding-top: 60px;
+}
+
+.main-content.no-header {
+  padding-top: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-padding {
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
